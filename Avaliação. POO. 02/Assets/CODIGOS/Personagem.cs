@@ -90,10 +90,17 @@ public class Personagem : MonoBehaviour
         return this.numero_de_maos;
     }
 
+    public class Inimigo : Personagem
+    {
+        public enum ArmaDoInimigo
+        {
+            ESPADA, LANÇA  
+        }
 
-
-
-
+        public enum ArmaduraDoInimigo
+        {
+            GAMBESON, COTADEMALHA , BRONZE, ACO
+        }
     void Start()
     {
         
