@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Personagem : MonoBehaviour
 {
+    //ESPADA, LANÇA 
+    
     [ SerializeField ]
     private string nome;
     [ SerializeField ]
